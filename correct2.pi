@@ -1,0 +1,84 @@
+ // File : correct2.pi
+
+ var j=3,i,w=10,k,y=45 int;
+ var t real;
+ const N1 = -100,N2 = 0, N3 =10, N4 = 100  real;
+ const s1 = "Give a real number" string;
+
+
+
+
+
+func begin() {
+
+ var i,j real;
+
+ writeString("Give a real number:");
+ i = readReal();
+ writeString(s1);
+ j = readReal();
+
+
+ if(i < N1 and j < N1){
+
+ 	writeString("Numbers ");
+ 	writeReal(i);
+ 	writeString(", "); 	
+ 	writeReal(j);
+ 	writeString(" are smaller  than ");
+ 	writeReal(N1);
+ 	writeString("\n");
+
+	};
+else if(i < N2 and j < N2) {
+
+	writeString("Numbers ");
+ 	writeReal(i);
+ 	writeString(", "); 	
+ 	writeReal(j);
+ 	writeString(" are smaller  than ");
+ 	writeReal(N2);
+ 	writeString("\n");
+	
+};
+
+else if(i < N3 and j < N3) {
+
+	writeString("Numbers ");
+ 	writeReal(i);
+ 	writeString(", "); 	
+ 	writeReal(j);
+ 	writeString(" are smaller  than ");
+ 	writeReal(N3);
+ 	writeString("\n");
+	
+};
+
+
+
+else if(i < N4 and j < N4) {
+
+	writeString("Numbers ");
+ 	writeReal(i);
+ 	writeString(", "); 	
+ 	writeReal(j);
+ 	writeString(" are smaller  than ");
+ 	writeReal(N4);
+ 	writeString("\n");
+	
+};
+
+else{
+
+	writeString("Numbers ");
+ 	writeReal(i);
+ 	writeString(", "); 	
+ 	writeReal(j);
+ 	writeString(" are not both smaller  than ");
+ 	writeReal(N4);
+ 	writeString("\n");
+	
+};
+
+
+ };
